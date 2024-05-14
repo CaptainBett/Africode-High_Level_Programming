@@ -1,4 +1,4 @@
-student = "Benz"
+student = "shad"
 if student == "Enock":
     print("Enock is present")
 elif student == "Naomi":
