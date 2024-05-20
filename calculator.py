@@ -1,27 +1,24 @@
-print("Select an operation you would like to perform from the list below:")
-print("1.ADDITION")
-print("2.SUBTRACTION")
-print("3.MULTIPLICATION")
-print("4.DIVISION")
+import choices
+import print_statements
 
 operation = input("Operation:")
 
-if operation == "1":
+if operation in choices.choice1:
     num1 = int(input("Enter your first number:"))
     num2 = int(input("Enter your second number:"))
     print("The solution is:" + str(num1 + num2))
   
-elif operation == "2":
+elif operation in choices.choice2:
        num1 = int(input("Enter your first number:"))
        num2 = int(input("Enter your second number:"))
        print("The solution is:" + str(num1 - num2))
 
-elif operation == "3":
+elif operation in choices.choice3:
        num1 = int(input("Enter your first number:"))
        num2 = int(input("Enter your second number:"))
        print("The solution is:" + str(num1 * num2))
 
-elif operation == "4":
+elif operation in choices.choice4:
        num1 = int(input("Enter your first number:"))
        num2 = int(input("Enter your second number:"))
        print("The solution is:" + str(num1 / num2))
