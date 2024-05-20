@@ -40,13 +40,20 @@
 #         print(y,i)
 
 
-name = input("Enter your name:")
+# fruits = ["banana","mango","apple","orange","avocado"]
+# # for fruit in fruits :
+   
+# #     if fruit == "apple":
+# #         break
+# #     print(fruit)
 
+# for i, fruit in enumerate(fruits):
+#     print(i+1,fruit)
 
-
-
-
-
+for x in ("ABCDE"):
+    for y in range(1,5):
+        print(x,y)
+       
 
 
 
