@@ -1,100 +1,63 @@
-# Python Learning Projects
+# Python Codes from Africode Academy
 
-This repository contains a collection of Python projects that I developed while learning Python at Africode Academy. These projects cover various aspects of Python programming and are intended to showcase my progress and understanding of the language.
+This repository contains Python codes written during my learning journey at [Africode Academy](https://africodeacademy.com/).
+
+## Code Explanation
+
+Here are some brief explanations of the Python codes in this repository:
+
+1. `hello_world.py`: A simple Python script that prints "Hello, World!" to the console.
+2. `variables.py`: Demonstrates the use of variables in Python.
+3. `data_types.py`: Shows different data types in Python, such as integers, floats, strings, and lists.
+4. `functions.py`: Illustrates how to define and use functions in Python.
+5. `conditional_statements.py`: Shows examples of using conditional statements (if, elif, else) in Python.
+6. `loops.py`: Demonstrates the use of loops (for, while) in Python.
+7. `classes.py`: Shows how to create and use classes in Python.
+
+## Cloning the Project
+
+To clone this project, you can use the following command in your terminal:
+
+```bash
+git clone <'url copied from github'>
+```
+
+## Contributing to the Project
+
+To contribute to this project, follow these steps:
+
+1. Fork the repository by clicking on the "Fork" button on the top right corner of the GitHub page.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your changes using the following command:
+
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
+   Replace `your-branch-name` with a descriptive name for your changes.
+
+4. Add your new Python code files to the repository.
+5. Commit your changes using the following command:
+
+   ```bash
+   git commit -m "Your commit message"
+   ```
+
+   Replace `Your commit message` with a brief description of your changes.
+
+6. Push your changes to your forked repository using the following command:
+
+   ```bash
+   git push origin your-branch-name
+   ```
+
+   Replace `your-branch-name` with the name of your branch.
+
+7. Create a pull request on the original repository by clicking on the "New pull request" button on the GitHub page.
+8. Follow the prompts to submit your pull request.
 
 ## About Africode Academy
 
-[Africode Academy](https://www.africodeacademy.com) is a premier coding school dedicated to empowering individuals with the skills needed to excel in the tech industry. With a focus on practical, hands-on learning, Africode Academy offers courses in various programming languages and technologies, helping students build a strong foundation in software development.
+[Africode Academy](https://africodeacademy.com/) is a software academy dedicated to fostering digital skills in Africa. The academy offers a range of coding courses, including Python, JavaScript, and web development. The curriculum is designed to be accessible and engaging for students of all ages and backgrounds.
 
-## Sample Projects
-
-### Project 1: Hello World
-
-This is a simple Python script that prints "Hello, World!" to the console.
-
-```python
-print("Hello, World!")
-```
-
-Project 2: Basic Calculator
-A basic calculator that performs addition, subtraction, multiplication, and division.
-def add(x, y):
-return x + y
-
-def subtract(x, y):
-return x - y
-
-def multiply(x, y):
-return x \* y
-
-def divide(x, y):
-if y == 0:
-return "Cannot divide by zero!"
-return x / y
-
-print("Select operation:")
-print("1. Add")
-print("2. Subtract")
-print("3. Multiply")
-print("4. Divide")
-
-choice = input("Enter choice(1/2/3/4): ")
-
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-
-if choice == '1':
-print(f"{num1} + {num2} = {add(num1, num2)}")
-elif choice == '2':
-print(f"{num1} - {num2} = {subtract(num1, num2)}")
-elif choice == '3':
-print(f"{num1} \* {num2} = {multiply(num1, num2)}")
-elif choice == '4':
-print(f"{num1} / {num2} = {divide(num1, num2)}")
-else:
-print("Invalid input")
-
-Project 3: Simple Guessing Game
-A simple number guessing game where the user has to guess a randomly generated number.
-import random
-
-number_to_guess = random.randint(1, 100)
-guess = None
-
-while guess != number_to_guess:
-guess = int(input("Guess a number between 1 and 100: "))
-if guess < number_to_guess:
-print("Too low!")
-elif guess > number_to_guess:
-print("Too high!")
-else:
-print("Congratulations! You guessed the number.")
-
-Cloning and Using the Source Code
-To clone this repository, you'll need to have Git installed on your machine. You can clone the repository using the following command:
-git clone https://github.com/CaptainBett/python-learning-projects.git
-Once cloned, navigate to the project directory:
-cd python-learning-projects
-You can run the Python scripts using Python 3:
-python3 project1.py
-python3 project2.py
-python3 project3.py
-
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-Please make sure your code adheres to the coding standards and includes appropriate tests.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-If you have any questions or suggestions, feel free to reach out to me at [enockbett427@gmail.com].
-
-Happy coding!
+Africode Academy is committed to providing a supportive and inclusive learning environment, where students can develop their skills and build their careers in technology. The academy also partners with local organizations to create opportunities for students to contribute to their communities and make a positive impact on the world.
