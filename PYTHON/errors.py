@@ -25,6 +25,6 @@ except ValueError as e:
     print(e)
 else:
     print("Meets minimums")
-finally:
+finally:#executes no matter what
     print("I am unstoppable")
   

@@ -7,13 +7,13 @@
 # import sys
 # print(sys.path)
 
-import datetime
-leo = datetime.datetime.now()
+# import datetime
+# leo = datetime.datetime.now()
 
-formatted_date = leo.strftime("%Y-%m-%d")
-day = leo.strftime("%A")
-formatted_time = leo.strftime("%H:%M:%S")
-print(f"Date: {formatted_date}, Day: {day}, Time: {formatted_time}")
+# formatted_date = leo.strftime("%Y-%m-%d")
+# day = leo.strftime("%A")
+# formatted_time = leo.strftime("%H:%M:%S")
+# print(f"Date: {formatted_date}, Day: {day}, Time: {formatted_time}")
 
 # import datetime
 

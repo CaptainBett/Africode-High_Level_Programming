@@ -38,14 +38,27 @@
 #     print("Please log in")
 
 
-height = 170
-is_bribe = True
-if height > 170 or is_bribe:
-    print("Elligible for millitary service")
-else:
-    print("Not elligible")
+# height = 170
+# is_bribe = True
+# if height > 170 or is_bribe:
+#     print("Elligible for millitary service")
+     
+# else:
+#     print("Not elligible")
 
 
+students = [1,2,3,4,5,6,7]
+
+while True:
+    
+    student = int(input("Student name: "))
+
+    if student in students:
+        print(f'The student is {student}')
+
+    else:
+        print(f'{student} is not unknown')
+        break
 
 
 

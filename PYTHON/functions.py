@@ -30,12 +30,12 @@
 #     print(name,admission)
 # multiple_items("Benz")
 
-def data_types_inFunc(*args):
-    print(args)
-data_types_inFunc("Ben",{"Language":"Python","Framework":"Flask","Semester":1},3,["Morning lesson","Midday lesson","Evening lesson"])
+# def data_types_inFunc(**stuff):
+#     print(stuff)
+# data_types_inFunc("Ben",{"Language":"Python","Framework":"Flask","Semester":1},3,["Morning lesson","Midday lesson","Evening lesson"])
 
-split1 = data_types_inFunc.splitlines(",")
-print(split1)
+# for key,value in stuff.items():
+#     print(value)
 
 
 

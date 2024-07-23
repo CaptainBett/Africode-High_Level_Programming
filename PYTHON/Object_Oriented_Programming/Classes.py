@@ -47,9 +47,13 @@ class Vehicle:
 
     def myCar(self):
         print( f'I own a {self.color} {self.year} {self.company}.')
-    
-car = Vehicle("blue",2018,'BMW')
+
+car = Vehicle("blue",2018,"BMW")  
+lorry = Vehicle("white",2016,"Mercedes")
 car.myCar()
+lorry.myCar()
+# car = Vehicle("blue",2018,'BMW')
+# car.myCar()
 
 
 # class Bike(Vehicle):

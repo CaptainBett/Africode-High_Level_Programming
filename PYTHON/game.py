@@ -1,27 +1,27 @@
 # # GAME 1:
 # ----------------------------------------------
 
-# import random
-# secret_number = random.randint(1,5)
-# guess_count = 0
+import random
+secret_number = random.randint(1,5)
+guess_count = 0
 
-# while guess_count < 2:
-#     try:
-#         guess = int(input("Guess a number (1-10): ")) 
-#     except ValueError:
-#         print("Please enter a valid integer.")
-#         continue
+while guess_count < 2:
+    try:
+        guess = int(input("Guess a number (1-10): ")) 
+    except ValueError:
+        print("Please enter a valid integer.")
+        continue
 
-#     guess_count += 1
+    guess_count += 1
 
-#     if guess == secret_number:
-#         print("Congratulations, you guessed it!")
-#         break
-#     else:
-#         print("Try again")
+    if guess == secret_number:
+        print("Congratulations, you guessed it!")
+        break
+    else:
+        print("Try again")
 
-# if guess_count == 2:
-#     print(f"Sorry, you ran out of guesses.The number was {secret_number}")
+if guess_count == 2:
+    print(f"Sorry, you ran out of guesses.The number was {secret_number}")
 
 
 

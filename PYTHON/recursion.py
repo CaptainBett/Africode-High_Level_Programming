@@ -2,6 +2,7 @@
 import sys
 max_recusion = sys.getrecursionlimit()
 print(max_recusion)
+
 def hello():
     print(hello)
     hello()

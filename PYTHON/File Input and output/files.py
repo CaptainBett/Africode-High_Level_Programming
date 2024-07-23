@@ -27,11 +27,11 @@
 # except FileExistsError:
 #     print("Sorry,the file already exists!")
 
-try:
-    import os
-    os.remove("Home/pictures/screenshots")
-except FileNotFoundError:
-    print("Sorry,the file does not exist!")
+# try:
+#     import os
+#     os.remove("Home/pictures/screenshots")
+# except FileNotFoundError:
+#     print("Sorry,the file does not exist!")
 
 
 
